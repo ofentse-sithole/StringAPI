@@ -4,7 +4,7 @@
 StringAPI is a simple ASP.NET Core Web API that provides endpoints for string manipulation. It includes functionality to reverse a string and check if it is a palindrome.
 
 
-##How Project Runs
+## How Project Runs
 1. Clone the project within Visual Studio
 2. dotnet build
 3. Press the start to build the project  (dotnet run project)
@@ -14,14 +14,14 @@ StringAPI is a simple ASP.NET Core Web API that provides endpoints for string ma
 7. Add a text example 'hello' then click on execute and response will be shown.
 8. Then you have a choice to either clear the information or Execute again
 
-##Dependencies
+## Dependencies
 .NET SDK 8.0
 Swagger for API Documentation
 
-##Setup
+## Setup
 git clone https://github.com/ofentse-sithole/StringAPI
 
-##Usage
+## Usage
 Reverse and Check Palindrome
 
 Endpoint: /api/client/string/{input}
@@ -36,4 +36,6 @@ Response Example:
   "ReversedString": "olleh",
   "IsPalindrome": false
 }
+
+
 
