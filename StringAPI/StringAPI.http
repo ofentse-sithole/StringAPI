@@ -1,0 +1,6 @@
+@StringAPI_HostAddress = http://localhost:5205
+
+GET {{StringAPI_HostAddress}}/api/client/string/{input}
+Accept: application/json
+
+###
