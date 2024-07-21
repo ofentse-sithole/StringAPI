@@ -15,8 +15,8 @@ StringAPI is a simple ASP.NET Core Web API that provides endpoints for string ma
 8. Then you have a choice to either clear the information or Execute again
 
 ## Dependencies
-.NET SDK 8.0
-Swagger for API Documentation
+1. .NET SDK 8.0
+2. Swagger for API Documentation
 
 ## Setup
 git clone https://github.com/ofentse-sithole/StringAPI
@@ -27,11 +27,11 @@ Reverse and Check Palindrome
 Endpoint: /api/client/string/{input}
 Method: GET
 
-Request Example:
+1. Request Example:
 GET http://localhost:5001/api/client/string/hello
 Accept: application/json
 
-Response Example:
+2. Response Example:
 {
   "ReversedString": "olleh",
   "IsPalindrome": false
